@@ -18,9 +18,9 @@ def test_file_exist_no_lib():
     except FileNotFoundError:
         assert False
 
-def test_file_exists():                            #alternative using os lib
-    path = "../exercise1.db"
-    assert os.path.exists(path)
+# def test_file_exists():                            #alternative using os lib
+#     path = "../exercise1.db"
+#     assert os.path.exists(path)
 
 # def test_list_tables():
 #     conn = sqlite3.connect('exercise1.db')
