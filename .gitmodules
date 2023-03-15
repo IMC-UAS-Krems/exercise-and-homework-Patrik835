@@ -1,3 +1,6 @@
 [submodule "public"]
 	path = public
 	url = https://github.com/IMC-UAS-Krems/DBSTUE-SS23-Public.git
+[submodule "DBSTUE-SS23-Public"]
+	path = DBSTUE-SS23-Public
+	url = git@github.com:IMC-UAS-Krems/DBSTUE-SS23-Public.git
