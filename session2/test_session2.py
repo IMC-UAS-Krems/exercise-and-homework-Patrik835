@@ -6,7 +6,6 @@ def test_s2_1():
         c = conn.cursor()
         c.execute("DROP TABLE IF EXISTS Professor")
         c.execute("CREATE TABLE IF NOT EXISTS Professor (PersNr Integer PRIMARY KEY , FirstName TEXT, LastName TEXT)")
-        
         c.execute("INSERT INTO Professor VALUES(123,'Foo','Bar')")
         c.execute("INSERT INTO Professor VALUES(123,'Foo','Bar')")
     finally:
