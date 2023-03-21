@@ -5,7 +5,7 @@ def test_s2_1():
         conn = sqlite3.connect("test-db.db")
         c = conn.cursor()
         c.execute("DROP TABLE IF EXISTS Professor")
-        c.execute("CREATE TABLE IF NOT EXISTS Professor (PersNr Integer PRIMARY KEY , FirstName TEXT, LastName TEXT)")
+        c.execute("CREATE TABLE IF EXISTS Professor (PersNr Integer PRIMARY KEY , FirstName TEXT, LastName TEXT)")
         c.execute("INSERT INTO Professor VALUES(123,'Foo','Bar')")
         c.execute("INSERT INTO Professor VALUES(123,'Foo','Bar')")
     finally:
