@@ -4,3 +4,6 @@
 [submodule "DBSTUE-SS23-Public"]
 	path = DBSTUE-SS23-Public
 	url = git@github.com:IMC-UAS-Krems/DBSTUE-SS23-Public.git
+[submodule "2023-Summer-Semester-Tutoring"]
+	path = 2023-Summer-Semester-Tutoring
+	url = git@github.com:UnknownEquineCoderFH/2023-Summer-Semester-Tutoring.git
